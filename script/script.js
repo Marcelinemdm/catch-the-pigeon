@@ -15,5 +15,5 @@ noBox.addEventListener("mouseover", () => {
     noBox.style.position = 'absolute';
     noBox.style.left = `${newX}px`;
     noBox.style.top = `${newY}px`;
-  },14545);
+  },141);
 });
