@@ -1,7 +1,7 @@
 function addTrophy() {
   var trophyCount = document.getElementById("points").children.length;
   var newTrophy = document.createElement("img");
-  newTrophy.src = "img/trofeu.png";
+  newTrophy.src = "trofeu.png";
   newTrophy.style.marginRight = "3px";
   document.getElementById("points").appendChild(newTrophy);
 }
@@ -13,7 +13,7 @@ function addTrophy() {
 
   if (trophyCount < 8) {
     var newTrophy = document.createElement("img");
-    newTrophy.src = "img/trofeu.png";
+    newTrophy.src = "trofeu.png";
     newTrophy.className = "js-trophy";
     newTrophy.style.marginRight = "2px";
     document.getElementById("points").appendChild(newTrophy);
@@ -29,13 +29,13 @@ var currentScene = 1;
 
 function changeScene() {
   if (currentScene === 1) {
-    document.body.style.backgroundImage = "url(img\florest2.png)";
+    document.body.style.backgroundImage = "url(florest2.png)";
     currentScene = 2;
   } else if (currentScene === 2) {
-    document.body.style.backgroundImage = "url(img\florest3.jpg)";
+    document.body.style.backgroundImage = "url(florest3.jpg)";
     currentScene = 3;
   } else if (currentScene === 3) {
-    document.body.style.backgroundImage = "url(img\florest4.png)";
+    document.body.style.backgroundImage = "url(florest4.png)";
     currentScene = 1;
   }
 }
